@@ -1,0 +1,11 @@
+.swiper.swiper-horizontal .swiper-wrapper {
+  margin-right: 0;
+  
+}
+
+@media (min-width:640px){
+    .swiper.swiper-horizontal .swiper-wrapper{
+        margin-left: 5rem;
+        gap: 0.5rem !important;
+    }
+}

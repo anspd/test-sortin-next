@@ -1,0 +1,23 @@
+.swiper-container-main .arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+}
+.swiper-container-main .arrow.arrow-left {
+  left: 0;
+}
+.swiper-container-main .arrow.arrow-right {
+  right: 0;
+}
+
+.swiper-container-main .swiper {
+  overflow-y: visible;
+}
+
+.swiper-container-main .swiper-button-disabled {
+  display: none;
+}
+
+.swiper-container-main .swiper-button-disabled {
+  display: none;
+}
