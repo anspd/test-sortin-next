@@ -1,5 +1,5 @@
 import Slider from "@/components/Slider";
-import { data } from "./data";
+import { data } from "../../../components/data";
 import "./blogs.css";
 
 export default function BlogSection() {
