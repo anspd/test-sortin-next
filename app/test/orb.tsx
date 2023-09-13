@@ -29,7 +29,7 @@ function Orb() {
         className="movingDiv"
         animate={controls}
         initial={{ x: 0, y: 0 }}
-        transition={{ type: "tween", stiffness: 50 }}
+        transition={{ type: "tween" }}
       />
 
       <div className="content">

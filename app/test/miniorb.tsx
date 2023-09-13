@@ -15,7 +15,7 @@ const MiniOrbe = () => {
   });
 
   useEffect(() => {
-    const animateRandomPosition = async (controls) => {
+    const animateRandomPosition = async (controls: any) => {
       while (true) {
         const newPosition = getRandomPosition();
         await controls.start(newPosition);
